@@ -1,5 +1,5 @@
 """
-This is the setup module for the example project.
+This is the setup module for the github-label-management project.
 
 Based on:
 
@@ -42,10 +42,10 @@ def get_version(version_file):
 
 
 setup(
-    name="example",
+    name="github-label-management",
     # Versions should comply with PEP440
-    version=get_version("src/example/_version.py"),
-    description="Example python library",
+    version=get_version("src/manage-labels/_version.py"),
+    description="Github label management python library",
     long_description=readme(),
     long_description_content_type="text/markdown",
     # NCATS "homepage"
@@ -77,10 +77,10 @@ setup(
     ],
     python_requires=">=3.6",
     # What does your project relate to?
-    keywords="skeleton",
+    keywords="labels",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
-    package_data={"example": ["data/*.txt"]},
+    package_data={"manage-labels": ["data/*.txt"]},
     py_modules=[splitext(basename(path))[0] for path in glob("src/*.py")],
     include_package_data=True,
     install_requires=["docopt", "schema", "setuptools >= 24.2.0"],
@@ -99,6 +99,6 @@ setup(
             "pytest",
         ]
     },
-    # Conveniently allows one to run the CLI tool as `example`
-    entry_points={"console_scripts": ["example = example.example:main"]},
+    # Conveniently allows one to run the CLI tool as `manage-labels`
+    entry_points={"console_scripts": ["manage-labels = manage-labels.manage-labels:main"]},
 )
