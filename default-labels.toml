@@ -1,0 +1,84 @@
+[blocked]
+color = "eb6420"
+name = "blocked"
+description = "This issue or pull request is awaiting the outcome of another issue or pull request"
+
+["breaking change"]
+color = "000000"
+name = "breaking change"
+description = "This issue or pull request involves changes to existing functionality"
+
+[bug]
+color = "d73a4a"
+name = "bug"
+description = "This issue or pull request addresses broken functionality"
+
+["code.gov"]
+color = "07648d"
+name = "code.gov"
+description = "This issue will be advertised on code.gov's Open Tasks page (https://code.gov/open-tasks)"
+
+[documentation]
+color = "5319e7"
+name = "documentation"
+description = "This issue or pull request improves or adds to documentation"
+
+[duplicate]
+color = "cfd3d7"
+name = "duplicate"
+description = "This issue or pull request already exists or is covered in another issue or pull request"
+
+[epic]
+color = "b005bc"
+name = "epic"
+description = "A high-level objective issue encompassing multiple issues instead of a specific unit of work"
+
+["good first issue"]
+color = "0e8a16"
+name = "good first issue"
+description = "This issue or pull request is well-defined and good for newcomers"
+
+[improvement]
+color = "a2eeef"
+name = "improvement"
+description = "This issue or pull request will add new or improve existing functionality"
+
+[invalid]
+color = "fef2c0"
+name = "invalid"
+description = "This issue or pull request is not applicable, incorrect, or obsolete"
+
+[kraken]
+color = "ce099a"
+name = "kraken"
+description = "This pull request is ready to merge during the next Lineage kraken release"
+
+["need info"]
+color = "a4fc5d"
+name = "need info"
+description = "This issue or pull request requires further information"
+
+["on hold"]
+color = "fcdb45"
+name = "on hold"
+description = "This pull request is awaiting an action like another pull request or a Lineage kraken release"
+
+[question]
+color = "ef476c"
+name = "question"
+description = "This issue is a request for information or needs discussion"
+
+["upstream update"]
+color = "1d76db"
+name = "upstream update"
+description = "This issue or pull request pulls in upstream updates"
+
+["version bump"]
+color = "d4c5f9"
+name = "version bump"
+description = "This issue or pull request increments the version number"
+
+[wontfix]
+color = "ffffff"
+name = "wontfix"
+description = "This issue will not be incorporated"
